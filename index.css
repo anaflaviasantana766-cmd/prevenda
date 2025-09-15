@@ -1,0 +1,227 @@
+.rectangle-parent {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 7610px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 48px;
+  	color: #000;
+  	font-family: Poppins;
+}
+.frame-child {
+  	position: absolute;
+  	top: -257px;
+  	left: -16px;
+  	background-color: #d9d9d9;
+  	width: 1916px;
+  	height: 9175px;
+}
+.frame-item {
+  	position: absolute;
+  	top: 141px;
+  	left: 144px;
+  	border-radius: 52px 52px 0px 0px;
+  	background-color: #004d8f;
+  	width: 1642px;
+  	height: 160px;
+}
+.logo-leitura-58-azul-h-1-icon {
+  	position: absolute;
+  	top: 164px;
+  	left: 260px;
+  	width: 412px;
+  	height: 114px;
+  	object-fit: cover;
+}
+.frame-inner {
+  	position: absolute;
+  	top: 1397px;
+  	left: 138px;
+  	background-color: #f2f2f2;
+  	width: 1642px;
+  	height: 5654px;
+}
+.email-mkt-pr-venda-1 {
+  	position: absolute;
+  	top: 283px;
+  	left: 145px;
+  	width: 1628px;
+  	height: 1114px;
+  	object-fit: cover;
+}
+.aqui-na-livraria-container {
+  	position: absolute;
+  	top: 1581px;
+  	left: 234px;
+  	display: inline-block;
+  	width: 1475px;
+  	height: 746px;
+}
+.aqui-na-livraria-leitura-esta {
+  	margin: 0;
+}
+.aqui-na {
+  	font-family: Poppins;
+}
+.as-aventuras-de-container {
+  	position: absolute;
+  	top: 2594px;
+  	left: 853px;
+  	display: inline-block;
+  	width: 856px;
+  	height: 746px;
+}
+.o-mike-est {
+  	margin: 0;
+  	font-size: 40px;
+}
+.o-clube-do-container {
+  	position: absolute;
+  	top: 4458px;
+  	left: 927px;
+  	display: inline-block;
+  	width: 823px;
+  	height: 746px;
+}
+.por-que-presentes-container {
+  	position: absolute;
+  	top: 5595px;
+  	left: 246px;
+  	display: inline-block;
+  	width: 1391px;
+  	height: 746px;
+  	font-size: 64px;
+}
+.rectangle-blank-line {
+  	margin: 0;
+  	font-size: 48px;
+}
+.ateno-as-unidades-container {
+  	position: absolute;
+  	top: 6538px;
+  	left: 276px;
+  	display: inline-block;
+  	width: 1391px;
+  	height: 746px;
+}
+.brindes-exclusivos-para-container {
+  	position: absolute;
+  	top: 3417px;
+  	left: 234px;
+  	display: inline-block;
+  	width: 1475px;
+  	height: 746px;
+}
+.card-autografado-um-presente {
+  	margin: 0;
+  	font-size: 40px;
+  	padding-left: 53px;
+}
+.rectangle-card-autografado-um-presente {
+  	margin-bottom: 0px;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 2573px;
+  	left: 148px;
+  	border-radius: 111px;
+  	background-color: #d9d9d9;
+  	width: 644px;
+  	height: 788px;
+}
+.rectangle-frame-child {
+  	position: absolute;
+  	top: 4369px;
+  	left: 234px;
+  	border-radius: 111px;
+  	background-color: #d9d9d9;
+  	width: 644px;
+  	height: 788px;
+}
+.design-sem-nome-5-1 {
+  	position: absolute;
+  	top: 2498px;
+  	left: 18px;
+  	width: 835px;
+  	height: 1044px;
+  	object-fit: cover;
+}
+.design-sem-nome-7-1 {
+  	position: absolute;
+  	top: 2788px;
+  	left: 270px;
+  	width: 603px;
+  	height: 754px;
+  	object-fit: cover;
+}
+.frame-child2 {
+  	position: absolute;
+  	top: 3976px;
+  	left: calc(50% - 344px);
+  	border-radius: 69px;
+  	background-color: #f48302;
+  	width: 688px;
+  	height: 152px;
+}
+.frame-child3 {
+  	position: absolute;
+  	top: 5300px;
+  	left: calc(50% - 344px);
+  	border-radius: 69px;
+  	background-color: #f48302;
+  	width: 688px;
+  	height: 152px;
+}
+.design-sem-nome-8-1 {
+  	position: absolute;
+  	top: 4155px;
+  	left: 112px;
+  	width: 994px;
+  	height: 1243px;
+  	object-fit: cover;
+}
+.frame-child4 {
+  	position: absolute;
+  	top: 7049px;
+  	left: 133px;
+  	border-radius: 0px 0px 80px 80px;
+  	background-color: #004d8f;
+  	width: 1640px;
+  	height: 420px;
+  	display: none;
+}
+.group-icon {
+  	position: absolute;
+  	top: 3985px;
+  	left: 639px;
+  	width: 652px;
+  	height: 187px;
+  	object-fit: cover;
+}
+.frame-child5 {
+  	position: absolute;
+  	top: 5300px;
+  	left: calc(50% - 341px);
+  	width: 682px;
+  	height: 200px;
+  	object-fit: cover;
+}
+.frame-child6 {
+  	position: absolute;
+  	top: 7030px;
+  	left: 139px;
+  	border-radius: 0px 0px 80px 80px;
+  	background-color: #004d8f;
+  	width: 1641px;
+  	height: 449px;
+}
+.ativo-64x-2 {
+  	position: absolute;
+  	top: 7255px;
+  	left: 556px;
+  	width: 682px;
+  	height: 102px;
+  	object-fit: cover;
+}
+
