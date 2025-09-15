@@ -1,131 +1,288 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="./index.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	
-  	
-  	
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <style>
+        .rectangle-parent {
+            width: 100%;
+            position: relative;
+            background-color: #fff;
+            height: 7610px;
+            overflow: hidden;
+            text-align: left;
+            font-size: 48px;
+            color: #000;
+            font-family: Poppins;
+        }
+        .frame-child {
+            position: absolute;
+            top: -257px;
+            left: -16px;
+            background-color: #d9d9d9;
+            width: 1916px;
+            height: 9175px;
+        }
+        .frame-item {
+            position: absolute;
+            top: 141px;
+            left: 144px;
+            border-radius: 52px 52px 0px 0px;
+            background-color: #004d8f;
+            width: 1642px;
+            height: 160px;
+        }
+        .logo-leitura-58-azul-h-1-icon {
+            position: absolute;
+            top: 164px;
+            left: 260px;
+            width: 412px;
+            height: 114px;
+            object-fit: cover;
+        }
+        .frame-inner {
+            position: absolute;
+            top: 1397px;
+            left: 138px;
+            background-color: #f2f2f2;
+            width: 1642px;
+            height: 5654px;
+        }
+        .email-mkt-pr-venda-1 {
+            position: absolute;
+            top: 283px;
+            left: 145px;
+            width: 1628px;
+            height: 1114px;
+            object-fit: cover;
+        }
+        .aqui-na-livraria-container {
+            position: absolute;
+            top: 1581px;
+            left: 234px;
+            display: inline-block;
+            width: 1475px;
+            height: 746px;
+        }
+        .aqui-na-livraria-leitura-esta {
+            margin: 0;
+        }
+        .aqui-na {
+            font-family: Poppins;
+        }
+        .as-aventuras-de-container {
+            position: absolute;
+            top: 2594px;
+            left: 853px;
+            display: inline-block;
+            width: 856px;
+            height: 746px;
+        }
+        .o-mike-est {
+            margin: 0;
+            font-size: 40px;
+        }
+        .o-clube-do-container {
+            position: absolute;
+            top: 4458px;
+            left: 927px;
+            display: inline-block;
+            width: 823px;
+            height: 746px;
+        }
+        .por-que-presentes-container {
+            position: absolute;
+            top: 5595px;
+            left: 246px;
+            display: inline-block;
+            width: 1391px;
+            height: 746px;
+            font-size: 64px;
+        }
+        .rectangle-blank-line {
+            margin: 0;
+            font-size: 48px;
+        }
+        .ateno-as-unidades-container {
+            position: absolute;
+            top: 6538px;
+            left: 276px;
+            display: inline-block;
+            width: 1391px;
+            height: 746px;
+        }
+        .brindes-exclusivos-para-container {
+            position: absolute;
+            top: 3417px;
+            left: 234px;
+            display: inline-block;
+            width: 1475px;
+            height: 746px;
+        }
+        .card-autografado-um-presente {
+            margin: 0;
+            font-size: 40px;
+            padding-left: 53px;
+        }
+        .rectangle-card-autografado-um-presente {
+            margin-bottom: 0px;
+        }
+        .rectangle-div {
+            position: absolute;
+            top: 2573px;
+            left: 148px;
+            border-radius: 111px;
+            background-color: #d9d9d9;
+            width: 644px;
+            height: 788px;
+        }
+        .rectangle-frame-child {
+            position: absolute;
+            top: 4369px;
+            left: 234px;
+            border-radius: 111px;
+            background-color: #d9d9d9;
+            width: 644px;
+            height: 788px;
+        }
+        .design-sem-nome-5-1 {
+            position: absolute;
+            top: 2498px;
+            left: 18px;
+            width: 835px;
+            height: 1044px;
+            object-fit: cover;
+        }
+        .design-sem-nome-7-1 {
+            position: absolute;
+            top: 2788px;
+            left: 270px;
+            width: 603px;
+            height: 754px;
+            object-fit: cover;
+        }
+        .frame-child2 {
+            position: absolute;
+            top: 3976px;
+            left: calc(50% - 344px);
+            border-radius: 69px;
+            background-color: #f48302;
+            width: 688px;
+            height: 152px;
+        }
+        .frame-child3 {
+            position: absolute;
+            top: 5300px;
+            left: calc(50% - 344px);
+            border-radius: 69px;
+            background-color: #f48302;
+            width: 688px;
+            height: 152px;
+        }
+        .design-sem-nome-8-1 {
+            position: absolute;
+            top: 4155px;
+            left: 112px;
+            width: 994px;
+            height: 1243px;
+            object-fit: cover;
+        }
+        .frame-child4 {
+            position: absolute;
+            top: 7049px;
+            left: 133px;
+            border-radius: 0px 0px 80px 80px;
+            background-color: #004d8f;
+            width: 1640px;
+            height: 420px;
+            display: none;
+        }
+        .group-icon {
+            position: absolute;
+            top: 3985px;
+            left: 639px;
+            width: 652px;
+            height: 187px;
+            object-fit: cover;
+        }
+        .frame-child5 {
+            position: absolute;
+            top: 5300px;
+            left: calc(50% - 341px);
+            width: 682px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .frame-child6 {
+            position: absolute;
+            top: 7030px;
+            left: 139px;
+            border-radius: 0px 0px 80px 80px;
+            background-color: #004d8f;
+            width: 1641px;
+            height: 449px;
+        }
+        .ativo-64x-2 {
+            position: absolute;
+            top: 7255px;
+            left: 556px;
+            width: 682px;
+            height: 102px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-  	
-  	<div class="rectangle-parent">
-    		<div class="frame-child">
-    		</div>
-    		<div class="frame-item">
-    		</div>
-    		<img class="logo-leitura-58-azul-h-1-icon" alt="">
-    		
-    		<div class="frame-inner">
-    		</div>
-    		<img class="email-mkt-pr-venda-1" alt="">
-    		
-    		<div class="aqui-na-livraria-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<span class="aqui-na">Aqui na </span>
-        				<b class="aqui-na">Livraria Leitura</b>
-        				<span>, estamos sempre buscando maneiras de tornar a leitura uma experiência ainda mais especial e divertida para as crianças. E é por isso que temos uma </span>
-        				<b class="aqui-na">pré-venda imperdível</b>
-        				<span class="aqui-na"> que vai fazer os pequenos se apaixonarem pelos livros!</span>
-      			</p>
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>&nbsp;</b>
-      			</p>
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>Lançamentos Imperdíveis para Crianças!</b>
-      			</p>
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<span class="aqui-na">Estamos com </span>
-        				<b class="aqui-na">dois lançamentos exclusivos </b>
-        				<span>que incentivam a leitura, estimulam a imaginação e trazem diversão para toda a família!</span>
-      			</p>
-    		</div>
-    		<div class="as-aventuras-de-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>As Aventuras de Mike 5 - Pé na Estrada 🚗💨</b>
-      			</p>
-      			<p class="o-mike-est">O Mike está de volta com mais uma aventura incrível! Em “Pé na Estrada”, as crianças irão viajar para novos mundos, viver grandes emoções e aprender muito sobre amizade, coragem e superação. E o melhor é que, ao adquirir o livro na pré-venda, você recebe brindes incríveis que tornam a leitura ainda mais empolgante!</p>
-    		</div>
-    		<div class="o-clube-do-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>O Clube do Zero - Gisleine Bezerra (Gis com Giz) 📖✨</b>
-      			</p>
-      			<p class="o-mike-est">Este é o livro que vai ensinar as crianças que o primeiro passo para alcançar os sonhos pode ser dado a qualquer momento, não importa o ponto de partida. "O Clube do Zero" inspira os pequenos a acreditarem em si mesmos e a nunca desistirem.</p>
-    		</div>
-    		<div class="por-que-presentes-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>📚 Por que Presentes Literários São Essenciais?</b>
-      			</p>
-      			<p class="rectangle-blank-line">
-        				<span>
-          					<span>&nbsp;</span>
-        				</span>
-      			</p>
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<span>
-          					<span>Na</span>
-          					<b class="aqui-na"> Livraria Leitura</b>
-          					<span>, sabemos o poder dos livros para transformar o universo das crianças. Além de estimular a imaginação, a leitura ajuda a desenvolver habilidades cognitivas, amplia o vocabulário e fortalece a criatividade. E nada melhor do que transformar a leitura em um momento especial, com brindes que tornam a experiência ainda mais inesquecível!</span>
-        				</span>
-      			</p>
-    		</div>
-    		<div class="ateno-as-unidades-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b class="aqui-na">Atenção:</b>
-        				<span> As unidades são limitadas, então corra e garanta o presente perfeito para os pequenos!</span>
-      			</p>
-      			<p class="aqui-na-livraria-leitura-esta">&nbsp;</p>
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>Vamos juntos incentivar o amor pela leitura nas crianças!</b>
-      			</p>
-    		</div>
-    		<div class="brindes-exclusivos-para-container">
-      			<p class="aqui-na-livraria-leitura-esta">
-        				<b>Brindes Exclusivos para quem comprar na pré-venda:</b>
-      			</p>
-      			<ul class="card-autografado-um-presente">
-        				<li class="rectangle-card-autografado-um-presente">
-          					<span>Card autografado – Um presente especial que as crianças vão adorar!</span>
-        				</li>
-        				<li class="rectangle-card-autografado-um-presente">
-          					<span>Mapa com raspadinha – Uma maneira divertida de se envolver com a história.</span>
-        				</li>
-        				<li>
-          					<span>Tag de Mala personalizada – Perfeita para levar a leitura para todos os cantos!</span>
-        				</li>
-      			</ul>
-    		</div>
-    		<div class="rectangle-div">
-    		</div>
-    		<div class="rectangle-frame-child">
-    		</div>
-    		<img class="design-sem-nome-5-1" alt="">
-    		
-    		<img class="design-sem-nome-7-1" alt="">
-    		
-    		<div class="frame-child2">
-    		</div>
-    		<div class="frame-child3">
-    		</div>
-    		<img class="design-sem-nome-8-1" alt="">
-    		
-    		<div class="frame-child4">
-    		</div>
-    		<img class="group-icon" alt="">
-    		
-    		<img class="frame-child5" alt="">
-    		
-    		<div class="frame-child6">
-    		</div>
-    		<img class="ativo-64x-2" alt="">
-    		
-  	</div>
-  	
-  	
-  	
-  	
+    <div class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="frame-item"></div>
+        <img class="logo-leitura-58-azul-h-1-icon" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v4_32.png" alt="">
+        <div class="frame-inner"></div>
+        <img class="email-mkt-pr-venda-1" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v1_5.png" alt="">
+        <div class="aqui-na-livraria-container">
+            <p class="aqui-na-livraria-leitura-esta"><span class="aqui-na">Aqui na </span><b class="aqui-na">Livraria Leitura</b><span>, estamos sempre buscando maneiras de tornar a leitura uma experiência ainda mais especial e divertida para as crianças. E é por isso que temos uma </span><b class="aqui-na">pré-venda imperdível</b><span class="aqui-na"> que vai fazer os pequenos se apaixonarem pelos livros!</span></p>
+            <p class="aqui-na-livraria-leitura-esta"><b>&nbsp;</b></p>
+            <p class="aqui-na-livraria-leitura-esta"><b>Lançamentos Imperdíveis para Crianças!</b></p>
+            <p class="aqui-na-livraria-leitura-esta"><span class="aqui-na">Estamos com </span><b class="aqui-na">dois lançamentos exclusivos </b><span>que incentivam a leitura, estimulam a imaginação e trazem diversão para toda a família!</span></p>
+        </div>
+        <div class="as-aventuras-de-container">
+            <p class="aqui-na-livraria-leitura-esta"><b>As Aventuras de Mike 5 - Pé na Estrada 🚗💨</b></p>
+            <p class="o-mike-est">O Mike está de volta com mais uma aventura incrível! Em “Pé na Estrada”, as crianças irão viajar para novos mundos, viver grandes emoções e aprender muito sobre amizade, coragem e superação. E o melhor é que, ao adquirir o livro na pré-venda, você recebe brindes incríveis que tornam a leitura ainda mais empolgante!</p>
+        </div>
+        <div class="o-clube-do-container">
+            <p class="aqui-na-livraria-leitura-esta"><b>O Clube do Zero - Gisleine Bezerra (Gis com Giz) 📖✨</b></p>
+            <p class="o-mike-est">Este é o livro que vai ensinar as crianças que o primeiro passo para alcançar os sonhos pode ser dado a qualquer momento, não importa o ponto de partida. "O Clube do Zero" inspira os pequenos a acreditarem em si mesmos e a nunca desistirem.</p>
+        </div>
+        <div class="por-que-presentes-container">
+            <p class="aqui-na-livraria-leitura-esta"><b>📚 Por que Presentes Literários São Essenciais?</b></p>
+            <p class="rectangle-blank-line"><span><span>&nbsp;</span></span></p>
+            <p class="aqui-na-livraria-leitura-esta"><span><span>Na</span><b class="aqui-na"> Livraria Leitura</b><span>, sabemos o poder dos livros para transformar o universo das crianças. Além de estimular a imaginação, a leitura ajuda a desenvolver habilidades cognitivas, amplia o vocabulário e fortalece a criatividade. E nada melhor do que transformar a leitura em um momento especial, com brindes que tornam a experiência ainda mais inesquecível!</span></span></p>
+        </div>
+        <div class="ateno-as-unidades-container">
+            <p class="aqui-na-livraria-leitura-esta"><b class="aqui-na">Atenção:</b><span> As unidades são limitadas, então corra e garanta o presente perfeito para os pequenos!</span></p>
+            <p class="aqui-na-livraria-leitura-esta">&nbsp;</p>
+            <p class="aqui-na-livraria-leitura-esta"><b>Vamos juntos incentivar o amor pela leitura nas crianças!</b></p>
+        </div>
+        <div class="brindes-exclusivos-para-container">
+            <p class="aqui-na-livraria-leitura-esta"><b>Brindes Exclusivos para quem comprar na pré-venda:</b></p>
+            <ul class="card-autografado-um-presente">
+                <li class="rectangle-card-autografado-um-presente"><span>Card autografado – Um presente especial que as crianças vão adorar!</span></li>
+                <li class="rectangle-card-autografado-um-presente"><span>Mapa com raspadinha – Uma maneira divertida de se envolver com a história.</span></li>
+                <li><span>Tag de Mala personalizada – Perfeita para levar a leitura para todos os cantos!</span></li>
+            </ul>
+        </div>
+        <div class="rectangle-div"></div>
+        <div class="rectangle-frame-child"></div>
+        <img class="design-sem-nome-5-1" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v3_7.png" alt="">
+        <img class="design-sem-nome-7-1" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v1_9.png" alt="">
+        <div class="frame-child2"></div>
+        <div class="frame-child3"></div>
+        <img class="design-sem-nome-8-1" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v3_22.png" alt="">
+        <div class="frame-child4"></div>
+        <img class="group-icon" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v4_44.png" alt="">
+        <img class="frame-child5" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v4_45.png" alt="">
+        <div class="frame-child6"></div>
+        <img class="ativo-64x-2" src="https://raw.githubusercontent.com/anaflaviasantana766-cmd/prevenda/refs/heads/main/imagens/v4_40.png" alt="">
+    </div>
 </body>
 </html>
